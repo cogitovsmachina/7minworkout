@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
+import android.widget.Toast;
 
 public class SignInActivity extends Activity {
 
@@ -19,7 +20,7 @@ public class SignInActivity extends Activity {
 		return true;
 	}
 
-	public void goToMainActivity(View v){
-		
+	public void pauseExercise(View v) {
+		Toast.makeText(this, "It Works!", Toast.LENGTH_SHORT).show();
 	}
 }
